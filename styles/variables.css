@@ -1,13 +1,34 @@
 :root {
+  --font-family: "IBM Plex Mono", monospace;
+  --main-font-size: 18px;
+  --main-line-height: 1.3;
+  --title-line-height: 0.825;
+  --button-line-height: 1;
+  --page-padding: 10px;
+  --section-gap: 50px;
+  --content-gap: 20px;
+  --card-gap: 10px;
+  --gallery-gap: 10px;
+  --decor-size: 25px;
+  --rec-bullet-size: 9px;
+  --viewport-min-block-size: 668px;
+  --title-font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
   --bg-color: #000028;
   --text-color: #f1b2ce;
   --accent-color: #ff0070;
-  --focus-color: #db00ff;
+  --title-color: #db00ff;
+  --decor-color: #ff0070;
   --title-decor-color: #000028;
+  --button-hover-color: rgba(255, 0, 112, 0.4);
+  --bg-image: url("../images/cover-image-dark.png");
+  --rec-display: flex;
+}
 
-  --bg-image: url('../images/cover-image-dark.png');
-
-  --font-family: 'IBM Plex mono', monospace;
-  --font-size: 18px;
-  --line-height: 1.3;
+@media (width >= 768px) {
+  :root {
+    --page-padding: 20px;
+    --section-gap: 80px;
+    --gallery-gap: 20px;
+    --title-font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
+  }
 }

@@ -2,16 +2,10 @@
   --bg-color: #000028;
   --text-color: #f1b2ce;
   --accent-color: #ff0070;
-  --focus-color: #db00ff;
+  --title-color: #db00ff;
+  --decor-color: #ff0070;
   --title-decor-color: #000028;
-  --bg-image: url('../images/cover-image-dark.png');
-}
-
-.theme-dark .page {
-  background-color: var(--bg-color);
-  background-image: var(--bg-image);
-}
-
-.theme-dark .header__rec-badge {
-  display: flex;
+  --button-hover-color: rgba(255, 0, 112, 0.4);
+  --bg-image: url("../images/cover-image-dark.png");
+  --rec-display: flex;
 }
